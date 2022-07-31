@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-    width: 4.375em;
+    height: 4.75em;
 }
 
 header nav ul li {
@@ -44,6 +44,10 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+header nav ul {
+    font-size: 0.75em;
 }
 
 .btn-me {
@@ -124,9 +128,14 @@ main article p {
 
 /* -------------------- Media Query Responsive -------------------- */
 
-@media screen and (max-width:429px) {
+@media screen and (max-width:666px) {
     article aside h1 {
         font-size: 2.75em;
+    }
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
