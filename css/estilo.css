@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #575656;
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* --------------- Cabecera --------------------*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #302e2e;
+    width: 100%;
+}
+
+header img {
+    width: 4.375em;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style:none;
+    margin: 30px;
+    font-size: 1.5625em;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-me {
+    padding: 10px;
+    border: 3.5px solid #3333ad;
+    border-radius: 1.875em;
+}
+
+.btn-me:hover {
+    color:#fff;
+    padding: 15px;
+    transition: all .5s;
+}
+
+header nav ul li a:hover {
+    opacity: .5;
+    color:#fff;
+}
+
+/* ---------------------------------------------------------------- */
+
+/* ------------------------ Articulo/Fondo BG --------------------- */
+
+article {
+    display: flex;
+    width: 100%;
+}
+
+article .bg {
+    width: 80%;
+    max-width: 1000px;
+}
+
+article .bg img {
+    width: 92%;
+}
+
+article aside {
+    width: 50%;
+}
+
+article aside h1 {
+    font-size: 2.75em;
+}
+
+article aside p {
+    font-size: 1.5625em;
+}
+
+/* -------------------------- Main/Contenido Principal -----------------*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article div {
+    padding: 10px;
+}
+
+main article div:hover {
+    color: #fff;
+    transition: all 2s;
+}
+
+main article {
+    justify-content: space-around;
+}
+
+main article h2 {
+    font-size: 2.8125em;
+}
+
+
+main article p {
+    font-size: 1.875em;
+}
+
+/* -------------------- Media Query Responsive -------------------- */
+
+@media screen and (max-width:429px) {
+    article aside h1 {
+        font-size: 2.75em;
+    }
+}
+
+
+/* <------------------- Antiguo Codigo ---------------> */
+/* 
+body{
+    background-color: #302e2e;
+    font-size: 16px;
+    background-image: url("../img/fondo.gif");
+    background-size: 10rem;
+} */
+
+/* header{
+    display: flex;
+    height: 4.375em;
+    background-color: coral;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 3.125em;
+}
+
+.cabecera_element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#242323; 
+} */
+
+/* .navegador_botones, li{
+    float: left;
+    list-style-type: none;
+    left: 35.625em;
+    bottom: .8em;
+    z-index: 50;
+}
+
+.cabecera{
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+}
+
+.navegador_botones{
+    position: relative;
+    left: 64em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.sobre-mi{
+    border: 1px solid #3333ad;
+    padding: 0.5625em;
+    margin: 0px 0px 0px 30px;
+    border-radius: 3.75em;
+}
+
+.sobre-mi:hover{
+    opacity: 80%;
+    background-color: #8080804d;
+    border-radius: 3.75em;
+    
+}
+
+.contenedor_principal{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    align-items: stretch;
+    width: 37.9688em;
+    height: 4.6875em;
+}
+
+.principal_logo {
+    position: relative;
+    left: 1%;
+    padding-top: 3.0625em;
+    width: auto;
+    opacity: 59%;
+    height: 36.5em;
+}  */
+
+/* .contenedor_principal_titulo{
+    position: relative;
+    font-family: 'Courier New', monospace;
+    width: 100%;
+    bottom: 11em;
+    color: rgb(221, 221, 221);
+    -webkit-text-stroke: 1px #3333ada3;
+    font-size: 3em;
+    text-align: center;
+    left: 7em;
+}
+
+.contenedor_principal_info{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    width: 111%;
+    left: 19em;
+    bottom: 32.25em;
+    color: rgb(221, 221, 221);
+    font-size: 1em;
+}
+
+.hero-container-init{
+    height: 22.5em;
+}
+
+.art_info{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    width: 100%;   
+    left: 5.1563em;
+    bottom: 7.0313em;
+}
+
+.art_info h2, .art_info p {
+    color:white
+}
+
+.section_info{
+    margin: 1.4063em;
+}
+
+#art_svg_exp{
+    width: 2em;
+} */
