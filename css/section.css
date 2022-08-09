@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.secciones {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top:50em;
+    margin-bottom: 50em;
+
+}
+
+.secciones section {
+    text-align: center;
+}
+
+.secciones section h2 {
+    font-size: 5em;
+}
+
+.secciones section p {
+    font-size: 3em;
+    letter-spacing: .1em;
+}

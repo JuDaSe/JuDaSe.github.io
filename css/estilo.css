@@ -71,19 +71,18 @@ header nav ul li a:hover {
     color:#fff;
 }
 
-/* ---------------------------------------------------------------- */
-
 /* ------------------------ Inicio/BG Nombre --------------------- */
 
 article {
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 
 
 article .inicio {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 article .inicio img {
@@ -96,7 +95,8 @@ article .inicio img {
 }
 
 .title {
-    font-size: 11rem;
+    font-size: 10em;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     background-image: url(../img/fondo.gif);
@@ -139,17 +139,20 @@ article .inicio p {
 
 main {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 10rem;
 }
 
-.info {
-    margin: 15rem;
+main .info {
+    display: flex;
+    justify-items: center;
 }
 
 main article div {
-    padding: 34px;
+    width: 100%;
+    height: 110%;
 }
 
 main article div:hover {
@@ -186,6 +189,7 @@ main article .svg {
     text-decoration: none;
     color: #fff;
     background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -195,6 +199,7 @@ main article .svg {
 footer {
     display: flex;
     width: 100%;
+    height: 5em;
     background-color: #3e3d3d;
     justify-content: space-between;
 }
@@ -211,145 +216,11 @@ footer p {
 }
 
 .redes {
-    width: 2rem;
-    margin: 10px;
-}
-
-
-
-
-/* -------------------- Media Query Responsive -------------------- */
-
-/* <------------------- Antiguo Codigo ---------------> */
-/* 
-body{
-    background-color: #302e2e;
-    font-size: 16px;
-    background-image: url("../img/fondo.gif");
-    background-size: 10rem;
-} */
-
-/* header{
-    display: flex;
-    height: 4.375em;
-    background-color: coral;
-    justify-content: space-between;
-}
-
-.logo{
-    display: flex;
-}
-
-.logo img{
-    height: 3.125em;
-}
-
-.cabecera_element{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color:#242323; 
-} */
-
-/* .navegador_botones, li{
-    float: left;
-    list-style-type: none;
-    left: 35.625em;
-    bottom: .8em;
-    z-index: 50;
-}
-
-.cabecera{
-    font-family: 'Open Sans', sans-serif;
-    position: fixed;
-}
-
-.navegador_botones{
-    position: relative;
-    left: 64em;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-    font-size: 0.9em;
-}
-
-.sobre-mi{
-    border: 1px solid #3333ad;
-    padding: 0.5625em;
-    margin: 0px 0px 0px 30px;
-    border-radius: 3.75em;
-}
-
-.sobre-mi:hover{
-    opacity: 80%;
-    background-color: #8080804d;
-    border-radius: 3.75em;
-    
-}
-
-.contenedor_principal{
-    display:flex;
-    flex-direction: column;
-    position: relative;
-    align-items: stretch;
-    width: 37.9688em;
-    height: 4.6875em;
-}
-
-.principal_logo {
-    position: relative;
-    left: 1%;
-    padding-top: 3.0625em;
-    width: auto;
-    opacity: 59%;
-    height: 36.5em;
-}  */
-
-/* .contenedor_principal_titulo{
-    position: relative;
-    font-family: 'Courier New', monospace;
-    width: 100%;
-    bottom: 11em;
-    color: rgb(221, 221, 221);
-    -webkit-text-stroke: 1px #3333ada3;
-    font-size: 3em;
-    text-align: center;
-    left: 7em;
-}
-
-.contenedor_principal_info{
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-    width: 111%;
-    left: 19em;
-    bottom: 32.25em;
-    color: rgb(221, 221, 221);
-    font-size: 1em;
-}
-
-.hero-container-init{
-    height: 22.5em;
-}
-
-.art_info{
-    position: relative;
-    display:flex;
-    flex-direction: row;
-    width: 100%;   
-    left: 5.1563em;
-    bottom: 7.0313em;
-}
-
-.art_info h2, .art_info p {
-    color:white
-}
-
-.section_info{
-    margin: 1.4063em;
-}
-
-#art_svg_exp{
     width: 2em;
-} */
+    margin: 25px 10px 0px 10px;
+}
+
+.redes:hover {
+    width: 2.3em;
+    transition: transform .1s ease;
+}
