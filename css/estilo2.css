@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* --------------- Cabecera --------------------*/
@@ -31,86 +32,11 @@ header {
     justify-content: space-between;
     background: #3e3d3d;
     width: 100%;
+
 }
 
 header img {
     height: 4.75em;
-}
-
-header nav ul li {
-    display: inline-block;
-    list-style:none;
-    margin: 30px;
-    font-size: 1.5625em;
-    font-family: 'Open Sans', sans-serif; 
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-header nav ul {
-    font-size: 0.75em;
-}
-
-.btn-me {
-    padding: 10px;
-    border: 3.5px solid #3333ad;
-    border-radius: 1.875em;
-}
-
-.btn-me:hover {
-    color:#fff;
-    padding: 15px;
-    transition: all .5s;
-}
-
-header nav ul li a:hover {
-    opacity: .5;
-    color:#fff;
-}
-
-/* ---------------------------------------------------------------- */
-
-/* ------------------------ Inicio/BG Nombre --------------------- */
-
-article {
-    display: flex;
-    width: 100%;
-}
-
-
-article .inicio {
-    width: 100%;
-    height: 80vh;
-}
-
-article .inicio img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-}
-
-.title {
-    font-size: 15rem;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-image: url(../img/fondo.gif);
-    margin-bottom: 20px;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
-    background-attachment: fixed;
-    text-align: center;
-
-}
-
-article .inicio p {
-    font-size: 1.5625em;
-    text-align: center;
-
 }
 
 /* ===== Scrollbar  ===== */
@@ -135,60 +61,6 @@ article .inicio p {
     border: 0px ridge #000000;
   }
 
-/* -------------------------- Main/Contenido Principal -----------------*/
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.info {
-    margin: 15rem;
-}
-
-main article div {
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-main article div:hover {
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-}
-
-main article {
-    justify-content: space-around;
-}
-
-main article h2 {
-    font-size: 2.8125em;
-    text-align: center;
-}
-
-
-main article p {
-    font-size: 1.875em;
-    text-align: center;
-}
-
-.svg-3 {
-    width: 2rem;
-}
-
-main article .svg {
-    display: block;
-    margin: 0px auto;
-}
-
-/*--------------------- Botones Articulo --------------------------------- */
-
-.btn-info {
-    text-decoration: none;
-    color: #fff;
-    background: -webkit-linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 /* -------------------- Footer/Contacto ---------------------------------- */
 
 footer {
@@ -196,6 +68,8 @@ footer {
     width: 100%;
     background-color: #3e3d3d;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
 }
 
 footer p {
