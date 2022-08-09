@@ -20,6 +20,8 @@ body {
 
 .secciones section {
     text-align: center;
+    margin: 20px;
+    padding: 10px;
 }
 
 .secciones section h2 {
