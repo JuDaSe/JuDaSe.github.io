@@ -51,7 +51,7 @@ header nav ul li a {
 }
 
 header nav ul {
-    font-size: 0.75em;
+    font-size: 0.67em;
 }
 
 .btn-me {
@@ -96,7 +96,7 @@ article .inicio img {
 }
 
 .title {
-    font-size: 15rem;
+    font-size: 11rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     background-image: url(../img/fondo.gif);
@@ -108,7 +108,7 @@ article .inicio img {
 }
 
 article .inicio p {
-    font-size: 1.5625em;
+    font-size: 2.5625em;
     text-align: center;
 
 }
@@ -140,6 +140,8 @@ article .inicio p {
 main {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .info {
@@ -147,8 +149,7 @@ main {
 }
 
 main article div {
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 34px;
 }
 
 main article div:hover {
