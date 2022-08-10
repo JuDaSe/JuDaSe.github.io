@@ -1,0 +1,70 @@
+
+
+@media screen and (max-width: 630px) {
+
+    .title {
+        font-size: 6em;
+    }
+
+    article .inicio p {
+        font-size: 1.5625em;
+        text-align: center;
+    }
+
+    main article {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        order: 2;
+        font-size: .8em;
+    }
+
+    footer div {
+        order: 1;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 467px) {
+
+    .secciones section h2 {
+        font-size: 3em;
+    }
+
+    .secciones section p {
+        font-size: 1em;
+    }
+
+    main article h2 {
+        font-size: 1.8125em;
+        text-align: center;
+    }
+
+    main article p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .redes {
+        width: 2em;
+        margin: 5px 0px 10px 10px;
+    }
+
+    .title {
+        font-size: 4em;
+    }
+
+    header img {
+        margin: auto;
+        height: 4.75em;
+    }
+
+}
