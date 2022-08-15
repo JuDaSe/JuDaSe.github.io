@@ -33,10 +33,6 @@ header {
     width: 100%;
 }
 
-header img {
-    height: 4.75em;
-}
-
 header nav ul li {
     display: inline-block;
     list-style:none;

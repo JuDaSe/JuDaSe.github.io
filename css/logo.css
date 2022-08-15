@@ -1,0 +1,17 @@
+
+
+.logo {
+    display:flex;
+}
+
+.logoJ, .logoS {
+    font-size: 3rem;
+}
+
+.logoJ {
+    color: #000099;
+}
+
+.logoS {
+    color: #5c5cbd;
+}
