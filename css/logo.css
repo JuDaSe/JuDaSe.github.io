@@ -1,17 +1,25 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 .logo {
     display:flex;
+    font-family: 'Kanit', sans-serif;
 }
 
 .logoJ, .logoS {
     font-size: 3rem;
 }
 
-.logoJ {
-    color: #000099;
+.logoS {
+    color: #191925;
 }
 
-.logoS {
-    color: #5c5cbd;
+.logoJ {
+    position: absolute;
+    color: #202097;
+    left: 0.39rem;
+    filter: blur(1.4px);
+}
+
+.logo p:hover {
+    filter: blur(2px);
 }

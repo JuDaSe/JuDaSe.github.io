@@ -5,9 +5,6 @@ body {
 }
 
 .secciones {
-
-    display: flex;
-    flex-direction: column;
     width: 100%;
     margin-top:50em;
     margin-bottom: 50em;
@@ -16,15 +13,31 @@ body {
 
 .secciones section {
     text-align: center;
-    margin: 20px;
-    padding: 10px;
 }
 
 .secciones section h2 {
     font-size: 5em;
 }
 
-.secciones section p {
-    font-size: 3em;
-    letter-spacing: .1em;
+.experience_sec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box img {
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    margin: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.box img:hover {
+    transition: all .5s;
+    filter: blur(2px);
 }

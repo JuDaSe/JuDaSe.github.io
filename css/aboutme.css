@@ -9,10 +9,6 @@
     color: #FFF;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: #575656;
     font-size: 16px;
@@ -25,7 +21,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 /* --------------- Cabecera --------------------*/
@@ -72,49 +69,6 @@ header nav ul li a:hover {
     color:#fff;
 }
 
-/* ------------------------ Inicio/BG Nombre --------------------- */
-
-article {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-
-article .inicio {
-    width: 100%;
-    height: 100vh;
-}
-
-article .inicio img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-}
-
-.title {
-    font-size: 10em;
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-image: url(../img/fondo.gif);
-    margin-bottom: 20px;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
-    background-attachment: fixed;
-    text-align: center;
-
-}
-
-article .inicio h2 {
-    font-size: 2.5625em;
-    text-align: center;
-    color: #3333ad;
-
-}
-
 /* ===== Scrollbar  ===== */
   /* Firefox */
   * {
@@ -136,69 +90,6 @@ article .inicio h2 {
     border-radius: 0px;
     border: 0px ridge #000000;
   }
-
-/* -------------------------- Main/Contenido Principal -----------------*/
-
-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 10rem;
-}
-
-main .info {
-    display: flex;
-    justify-items: center;
-}
-
-main article div {
-    line-height: 1.3;
-    align-items: center;
-    width: 100%;
-    border: rgba(0, 0, 0, 0.189) 1px solid;
-}
-
-main article div:hover {
-   background-color: rgb(137, 137, 137);
-   transition: all 1.2s;
-}
-
-main article {
-    justify-content: space-around;
-}
-
-main article h2 {
-    font-size: 2.8125em;
-    text-align: center;
-}
-
-
-main article p {
-    font-size: 1.875em;
-    text-align: center;
-}
-
-.svg-3 {
-    width: 2rem;
-}
-
-main article .svg {
-    display: block;
-    margin: 0px auto;
-}
-
-/*--------------------- Botones Articulo --------------------------------- */
-
-.btn-info {
-    text-decoration: none;
-    color: #202097;
-    background: -webkit-linear-gradient(#202097,#202097);
-    background-clip: border-box;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 /* -------------------- Footer/Contacto ---------------------------------- */
 
 footer {
@@ -207,6 +98,8 @@ footer {
     height: 5em;
     background-color: #3e3d3d;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
 }
 
 .derechos {
