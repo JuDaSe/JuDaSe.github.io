@@ -145,7 +145,6 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin-bottom: 10rem;
 }
 
 main .info {
@@ -153,37 +152,10 @@ main .info {
     justify-items: center;
 }
 
-.dashedDIV {
+/* .dashedDIV {
     cursor: pointer;
     transition: color 0.4s linear;
-    width:30%;
-}
-
-.dashedDIV:hover {
-    color:#fff;
-}
-
-.dashedDIV::before{
-    content:'';
-    position: absolute;
-    width:30%;  /* Arreglar porcentajes por Em*/
-    height: 18%;
-    background: #717171 ;
-    border-radius: 15px;
-    z-index: -1;
-    transition: transform 0.7s;
-    transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
-}
-
-.dashedDIV:before {
-    transform: scaleX(0);
-}
-
-.dashedDIV:hover:before {
-    transform: scaleX(1);
-}
-
+} */
 
 
 /* main article div:hover {
@@ -194,8 +166,9 @@ main .info {
 
 
 
-main article {
-    justify-content: space-around;
+.direccion {
+    text-align: center;
+    width: 50%;
 }
 
 main article h2 {
@@ -216,6 +189,42 @@ main article p {
 main article .svg {
     display: block;
     margin: 0px auto;
+}
+
+/* -------- Effect Hover ------- */
+
+.dashedDIV {
+    background: none;
+    text-transform: uppercase;
+    width: 34.375em;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.dashedDIV:hover {
+    color:#fff;
+}
+
+.dashedDIV::before{
+    content:'';
+    position: absolute;
+    width: 34.375em;  /* Arreglar porcentajes por Em*/
+    height: 12em;
+    background: #717171 ;
+    border-radius: 15px;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
+}
+
+.dashedDIV:before {
+    transform: scaleX(0);
+}
+
+.dashedDIV:hover:before {
+    transform: scaleX(1);
 }
 
 /*--------------------- Botones Articulo --------------------------------- */
