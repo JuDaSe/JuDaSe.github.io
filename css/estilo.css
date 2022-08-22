@@ -144,7 +144,8 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    margin: auto;
+    width: 90%;
 }
 
 main .info {
@@ -152,17 +153,18 @@ main .info {
     justify-items: center;
 }
 
-/* .dashedDIV {
+.dashedDIV {
     cursor: pointer;
     transition: color 0.4s linear;
-} */
+    margin: 10px;
+}
 
 
-/* main article div:hover {
-    border: 5px dashed black;
-    -webkit-animation: rotate 12s linear infinite;
-    border: 5px dashed blue;
-} */
+main article div:hover {
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
 
 
 
@@ -193,10 +195,10 @@ main article .svg {
 
 /* -------- Effect Hover ------- */
 
-.dashedDIV {
+/* .dashedDIV {
     background: none;
-    width: 34.375em;
-    margin: 10px;
+    width: 26.375em;
+    margin: 26px;
     cursor: pointer;
     transition: color 0.4s linear;
 }
@@ -208,7 +210,7 @@ main article .svg {
 .dashedDIV::before{
     content:'';
     position: absolute;
-    width: 34.375em;  /* Arreglar porcentajes por Em*/
+    width: 34.375em;  /* Arreglar porcentajes por Em
     height: 12em;
     background: #717171 ;
     border-radius: 15px;
@@ -224,7 +226,7 @@ main article .svg {
 
 .dashedDIV:hover:before {
     transform: scaleX(1);
-}
+} */
 
 /*--------------------- Botones Articulo --------------------------------- */
 
@@ -247,8 +249,11 @@ footer {
     justify-content: space-between;
 }
 
+
+
 .derechos {
     margin: auto;
+    color: #fff;
 }
 
 .contacto {

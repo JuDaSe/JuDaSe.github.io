@@ -18,70 +18,21 @@
 
 @media screen and (max-width: 1440px) {
 
-    .dashedDIV::before{
-        content:'';
-        position: absolute;
-        width: 31%;
-        height: 30%;
-        background: #717171 ;
-        border-radius: 15px;
-        z-index: -1;
-        transition: transform 0.5s;
-        transform-origin: 0 0;
-        transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
-    }
     
 }
 
 @media screen and (max-width: 1024px) {
 
-    .dashedDIV::before{
-        content:'';
-        position: absolute;
-        width: 32%;
-        height: 36%;
-        background: #717171 ;
-        border-radius: 15px;
-        z-index: -1;
-        transition: transform 0.5s;
-        transform-origin: 0 0;
-        transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
-    }
     
 }
 
 @media screen and (max-width: 768px) {
 
-    .dashedDIV::before{
-        content:'';
-        position: absolute;
-        width: 31%;
-        height: 40%;
-        background: #717171 ;
-        border-radius: 15px;
-        z-index: -1;
-        transition: transform 0.5s;
-        transform-origin: 0 0;
-        transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
-    }
     
 }
 
 
 @media screen and (max-width: 630px) {
-
-    .dashedDIV::before{
-        content:'';
-        position: absolute;
-        width: 80%;
-        height: 25%;
-        background: #717171 ;
-        border-radius: 15px;
-        z-index: -1;
-        transition: transform 0.5s;
-        transform-origin: 0 0;
-        transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
-    }
 
     .title {
         font-size: 6em;
@@ -115,19 +66,6 @@
 }
 
 @media screen and (max-width: 467px) {
-
-    .dashedDIV::before{
-        content:'';
-        position: absolute;
-        width: 90%;
-        height: 20%;
-        background: #717171 ;
-        border-radius: 15px;
-        z-index: -1;
-        transition: transform 0.5s;
-        transform-origin: 0 0;
-        transition-timing-function: cubic-bezier(0.5, 1.6,0.4,0.7);
-    }
 
     .secciones section h2 {
         font-size: 3em;

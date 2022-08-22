@@ -28,7 +28,8 @@ body {
 
 .box img {
     width: 350px;
-    height: 350px;
+    border: #fff 2px solid;
+    border-radius: 12px;
 }
 
 .box {
@@ -40,4 +41,10 @@ body {
 .box img:hover {
     transition: all .5s;
     filter: blur(2px);
+    box-shadow: #333333 0px 5px, #717171 0px 10px, #959595 0px 15px, #b6b6b6 0px 20px, #efefef 0px 25px;
+    padding: 15px;
+}
+
+.caja_1 {
+    width: 350px;
 }

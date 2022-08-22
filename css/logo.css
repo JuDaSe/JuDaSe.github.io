@@ -5,7 +5,7 @@
     font-family: 'Kanit', sans-serif;
 }
 
-.logoJ, .logoS {
+.logoS, .logoJ {
     font-size: 3rem;
 }
 
@@ -16,10 +16,11 @@
 .logoJ {
     position: absolute;
     color: #202097;
-    left: 0.39rem;
-    filter: blur(1.4px);
+    left: 0.43rem;
 }
 
-.logo p:hover {
-    filter: blur(2px);
+
+.logo:hover {
+    filter: blur(.7px);
+    cursor: pointer;
 }

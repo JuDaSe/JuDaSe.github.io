@@ -90,6 +90,27 @@ header nav ul li a:hover {
     border-radius: 0px;
     border: 0px ridge #000000;
   }
+
+/* --------------------- Main - Información -------------------------------------  */
+
+
+main article {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+
+main article h1 {
+    text-align: center;
+}
+
+main article p {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
 /* -------------------- Footer/Contacto ---------------------------------- */
 
 footer {
@@ -104,6 +125,7 @@ footer {
 
 .derechos {
     margin: auto;
+    color: #FFF;
 }
 
 .contacto {
