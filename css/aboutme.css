@@ -95,7 +95,7 @@ header nav ul li a:hover {
 
 
 main article {
-    width: 80%;
+    width: 100%;
     text-align: center;
     justify-content: center;
 }
@@ -106,9 +106,8 @@ main article h1 {
 
 main article p {
     width: 100%;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 1.5em;
-    justify-content: center;
 }
 
 /* -------------------- Footer/Contacto ---------------------------------- */
@@ -136,7 +135,7 @@ footer {
 
 .redes {
     width: 2em;
-    margin: 25px 10px 0px 10px;
+    margin: 27px 6px 0px 7px;
 }
 
 .redes:hover {
