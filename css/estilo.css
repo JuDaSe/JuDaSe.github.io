@@ -124,28 +124,35 @@ article .inicio img {
     
 }
 
-h2::before{
+.title__subtitle::before{
     content: attr(data-text);
     position: absolute;
     top:0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    color: #8d8d8ddc;
-    -webkit-text-stroke: 0vw #383d52;
+    left: 38%;
+    height: 100px;
+    color: #535151dc;
+    -webkit-text-stroke: .2px #b7b7b7;
     overflow: hidden;
     border-right: 1px solid #383d5200;
-    animation: animate 6s linear infinite;
-    -webkit-animation: animate 6s linear infinite;
+    animation: animate 6s initial ;
+    -webkit-animation: animate 6s cubic-bezier(0, 0.65, 0, 0.84);
 }
 
 @keyframes animate {
     0% {
         width: 0;
+        left: 0px;
     }
     70% {
-        width: 100%;
+        width: 25%;
     }
+}
+
+.title__subtitle {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 /* ===== Scrollbar  ===== */
